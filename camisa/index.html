@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/sports_soccer_FILL0_wght400_G">
+
+    <video autoplay muted loop class="video-bg">
+        <source src="video/production_id_4990248 (1080p).mp4" type="video/mp4">
+    </video>
+
+    <title>Bot Sports</title>
+    <link rel="stylesheet" href="css/style.css">
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+
+    <!-- modelos de camisa na lista e no carrinho -->
+    <div class="models">
+
+        <!-- camisa na lista -->
+        <div class="camisa-item">
+            <a href="">
+                <div class="camisa-item--img"><img src=""></div>
+                <div class="camisa-item--add">+</div>
+            </a>
+            <div class="camisa-item--price">R$ --</div>
+            <div class="camisa-item--name">--</div>
+            <div class="camisa-item--desc">--</div>
+        </div>
+
+        <!-- camisa no carrinho -->
+        <div class="cart--item">
+            <img src="">
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- /models -->
+
+    <!-- .menu-openner aparecera no modo mobile -->
+    <header>
+        <h1>Bot Sports</h1>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <!-- /menu-openner -->
+
+    <!-- conteudo principal -->
+    <main>
+        <br><br>
+        <div class="camisa-area"></div>
+    </main>
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Suas Camisas</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+
+    <!-- janela modal .camisaWindowArea -->
+    <div class="camisaWindowArea">
+        <div class="camisaWindowBody">
+            <div class="camisaInfo--cancelMobileButton">Voltar</div>
+            <div class="camisaBig">
+                <img src="">
+            </div>
+            <div class="camisaInfo">
+                <h1>--</h1>
+                <div class="camisaInfo--desc">--</div>
+                <div class="camisaInfo--sizearea">
+                    <div class="camisaInfo--sector">Tamanho</div>
+                    <div class="camisaInfo--sizes">
+                        <div data-key="P" class="camisaInfo--size">P <span>--</span></div>
+                        <div data-key="M" class="camisaInfo--size">M <span>--</span></div>
+                        <div data-key="G" class="camisaInfo--size selected">G <span>--</span></div>
+                    </div>
+                </div>
+                <div class="camisaInfo--pricearea">
+                    <div class="camisaInfo--sector">Preço</div>
+                    <div class="camisaInfo--price">
+                        <div class="camisaInfo--actualPrice">R$ --</div>
+                        <div class="camisaInfo--qtarea">
+                            <button class="camisaInfo--qtmenos">-</button>
+                            <div class="camisaInfo--qt">1</div>
+                            <button class="camisaInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="camisaInfo--addButton">Adicionar ao carrinho</div>
+                <div class="camisaInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <!-- /janela modal .camisaWindowArea -->
+
+    <script src="camisa.js"></script>
+    <script src="js/script.js"></script>
+
+</body></html>
